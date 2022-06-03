@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8"/>
+    <title>Practice CSS</title>
+    <style>
+        /* *{
+            background-color: blanchedalmond;
+        } */
+        /* div.red.green{
+            background-color: red;
+            color: green;
+        } */
+        /* span,li.red{
+            background-color: green;
+        } */
+        /* ul li {
+            background-color: blue;
+        } */
+        /* span > strong{                  it will call imideate child of an element
+            background-color: greenyellow;
+        } */
+        /* li.red ~ li{                    it will target after the class element
+            background-color: greenyellow;
+        } */
+        /* li.red ~ li{
+            background-color: aqua;
+        } */
+        /* li:hover{
+            background-color: blueviolet;
+            cursor: pointer;
+        } */
+        /* input:focus{
+            background-color: black;
+        } */
+        /* input:checked{
+            margin: 40px;
+        } */
+        /* li:first-child{
+            background-color: goldenrod;
+        } */
+        /* li:nth-child(even){
+            background-color: green;
+        } */
+        /* span:only-child{
+            background-color: blue;
+        } */
+        /* span:first-of-type{
+            background-color: blue;
+        } */
+        /* span:last-of-type{
+            background-color: gray;
+        } */
+        /* li:not(.red){                    ignoring particular element
+            background-color: blueviolet;
+        } */
+        /* div.red::before{
+            content: "before";
+            background-color: red;
+        } */
+        /* div.red::after{
+            content:"after";
+            background-color: blue;
+        } */
+        [data-red]{
+            background-color: blue;
+        }
+    </style>
+    </head>
+    <body class="green">
+        <div class="red green">this is a div</div>
+        <div data-red>this is div 2</div>
+        <span id="blue">this is a span</span>
+        <div>
+            <span>
+                <strong>This is a nested test</strong>
+            </span>
+        </div>
+        <span>hello</span>
+        <span>hello</span>
+        <span>hello</span>
+        <span>hello</span>
+        
+        <ul>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li class="red">Item3</li>
+            <li>Item4</li>
+            <li>Item5</li>
+        </ul>
+        <input type="text">
+        <br>
+        <br>
+        <input type="checkbox">
+        
+    </body>
+</html>
