@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Animenation</title>
+        <style>
+            .parent{
+                background-color: blue;
+                width: 400px;
+                height: 400px;
+            }
+            .child{
+              background-color: tomato;
+              height: 50%;
+              width: 50%;
+              /* transition:transform 1s cubic-bezier(0.42, 0, 1, 1.25); */
+              animation: left-to-right 0.4s ease-in forwards infinite alternate;
+            }
+            .parent:hover .child{
+                /* background-color: aqua; */
+                /* transform: translateY(100%); */
+                 animation-play-state: paused;
+            }
+            @keyframes   left-to-right{
+                100%{
+                    transform: translateX(100%);
+                }
+                0%{
+                    transform: translateX(0%);
+                }
+                33%{
+                    transform: translateY(100%);
+                }
+                66%{
+                    transform: translateX(100%) translateY(100%)
+                }
+            }
+        </style>
+    </head>
+    <body>
+         <div class="parent">
+             <div class="child"></div>
+         </div>
+    </body>
+</html>
