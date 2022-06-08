@@ -69,3 +69,66 @@ console.log(Number(true))// output 1
 console.log((Number)("123a"));// output NaN
 console.log(Number(undefined)); // output NaN
 console.log(Number(null)); // output 0
+
+// comparison operator 
+console.log(2>1); // output ==> true
+console.log(2>=1) // output ==> true
+console.log(2==1) // output ==> false
+console.log(2!=1)// output ==> true
+console.log("Z" > "A") // output ==> true
+console.log("2">1)// output ==> true
+console.log("01" == 1)// output ==> true
+console.log("2"===1) // output ==> false
+console.log("1"!=1)// output ==> false
+console.log("1"!==1)//output ==> true
+console.log(null == undefined)// output ==> true
+console.log(null=== undefined) // output ==> false
+
+
+// conditional statement
+/*if (condition) {
+    
+} else {
+    
+}
+let result = condition ? value1 : value2;
+*/
+// let accessAllowed;
+// let age3 = prompt("How old are you",' ');
+// if(age3>18){
+//     accessAllowed=true;
+// }else{
+//     accessAllowed=false;
+// }
+// alert(accessAllowed);
+// let age3 = prompt("How old are you",' ');
+// let accessAllowed = age3>18?true:false;
+// alert(accessAllowed);
+
+// let age3 = prompt("age",'18');
+// let messa = age3<3?"baby":age3<18?"student":age3<100?"adulat":"bempirous";
+// alert(messa);
+
+//logical operator
+// || OR
+// if(1||0){
+//     console.log(true);
+// }
+// let hour = 9;
+// if(hour<10 || hour>18){
+//     console.log("the office is closed");
+// }
+// short Circuit
+// true || console.log("not printed");
+
+// && AND
+// result = a && b
+// console.log(true && false);
+// let hour = 12;
+// let min = 30;
+// if(hour==12 && min==30){
+//     console.log("this time is 12:30")
+// }
+
+// ! NOT 
+//console.log(!true);
