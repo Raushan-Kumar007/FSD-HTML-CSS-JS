@@ -57,7 +57,7 @@ let value = true;
 value = String(value)
 console.log(typeof value)
 // numeric conversion
-alert('6'/'2'); // output ==>3
+// alert('6'/'2'); // output ==>3
 let num = '123';
 num = Number(str);
 console.log(typeof num) // output ==> number
@@ -132,3 +132,40 @@ let result = condition ? value1 : value2;
 
 // ! NOT 
 //console.log(!true);
+
+// functions 
+// function declaration
+
+// let username = "john"// global variable
+// function showMessage(msg){
+//     let username = "bob"; // function variable
+//     // console.log(msg +" " +username); // output hey john
+//     console.log(`${msg} ${username}`); // output hey bob
+// }
+// showMessage("hey");
+//  function sum(a,b){
+//     // console.log(a+b);
+//     if(false){
+//     return a+b;
+//     }else{
+//         return a-b;
+//     }
+//  }
+//  console.log(sum(1,2));
+
+// function expression  named or unnamed
+// unnamed
+// let sum = function(a,b){
+//     return a+b
+// }
+// // named function expression
+// let sum1 = function sum(a,b){
+//     return a+b
+// }
+// console.log(sum1(4,3));
+// anonymous function
+// function (){
+
+// }
+ 
+
